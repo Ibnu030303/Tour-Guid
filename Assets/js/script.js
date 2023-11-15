@@ -31,3 +31,6 @@ window.addEventListener('scroll', function () {
     });
 });
 
+function galery() {
+    alert("Mohon maaf saat ini belum tersedia karna masih dalam pemeliharaan");
+}
