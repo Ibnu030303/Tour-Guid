@@ -38,3 +38,4 @@ function galery() {
 function bromo() {
     window.location.href='bromo.html';
 }
+
