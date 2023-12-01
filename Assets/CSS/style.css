@@ -269,6 +269,7 @@ body {
 .destination .isi {
     color: #f1c40f; 
     width: 500px; 
+    margin-left: 7%;
 }
 
 .destination .isi h2 {
@@ -392,6 +393,11 @@ body {
     margin-left: 30px;
 }
 
+.contack .body p {
+    width: 50%;
+    margin-bottom: 40px;
+}
+
 .contack .body img {
     width: 40px; 
     height: 40px; 
@@ -455,7 +461,7 @@ body {
     }
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media (min-width: 280px) and (max-width: 765px) {
 
     .header p {
         width: auto
@@ -474,6 +480,10 @@ body {
         flex-wrap: wrap;
     }
 
+    #destination {
+        height: auto;
+    }
+
     .destination .content {
         justify-content: center;
         text-align: center;
@@ -482,19 +492,19 @@ body {
     .destination .card {
         justify-content: center;
         align-items: center;
-        height: auto;
+        margin-top: 40px;
         width: 100%;
+        height: auto;
     }
     
     .destination .card img{
-        height: 250px;
-        width: 330px;
+        width: 88%;
+        height: 40%;
     }
     
     .destination .isi {
-        width: 100%;
-        margin-right: 5%;
-        margin-bottom: 50px;
+        width: 80%;
+        margin-bottom: 40px;
     }
 
     .destination .isi p {
@@ -504,6 +514,11 @@ body {
     .contack .sponsor img {
         width: 90px; 
         height: 100px; 
+    }
+
+    .contack .body p {
+        width: 80%;
+        margin-bottom: 20px;
     }
 
     .content-blog {
@@ -564,41 +579,45 @@ body {
         flex-wrap: wrap;
     }
 
+    #destination {
+        height: auto;
+    }
+
     .destination .content {
         justify-content: center;
         text-align: center;
     }
     
-    .destination .card{
+    .destination .card {
         justify-content: center;
         align-items: center;
+        margin-top: 40px;
         width: 100%;
-        height: 300px;
+        height: auto;
     }
-
+    
     .destination .card img{
         width: 70%;
-        height: 500px;
+        height: 40%;
     }
     
     .destination .isi {
-        width: 100%;
+        width: 80%;
         margin-right: 5%;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .destination .isi p {
-        font-size: 25px;
+        font-size: 20px;
         text-align: justify;
     }
 
-    .destination .isi h2 {
-        font-size: 40px;
-        margin-bottom: 15px;
+    .destination .isi h2  {
+        font-size: 30px;
     }
 
     .destination .isi .btn {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contack .sponsor img {
