@@ -278,6 +278,7 @@ body {
 }
 .destination .isi p {
     color: wheat;
+    padding-top: 10px;
     font-size: 15px;
     text-align: justify;
 }
@@ -311,7 +312,14 @@ body {
     width: 100%;
 }
 
-.galery h1 {
+.galery h3 {
+    color: #f1c40f;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+}
+
+.galery p {
+    color: white;
+    font-size: 13px;
     text-shadow: 0px 4px 4px rgba(0,0,0,0.5);
 }
 
@@ -476,103 +484,8 @@ body {
         margin-bottom: 30px;
     }
 
-    .carousel-item {
-        flex-wrap: wrap;
-    }
-
-    #destination {
-        height: auto;
-    }
-
-    .destination .content {
-        justify-content: center;
-        text-align: center;
-    }
-    
-    .destination .card {
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
-        width: 100%;
-        height: auto;
-    }
-    
-    .destination .card img{
-        width: 88%;
-        height: 40%;
-    }
-    
-    .destination .isi {
-        width: 80%;
-        margin-bottom: 40px;
-    }
-
-    .destination .isi p {
-        text-align: justify;
-    }
-
-    .contack .sponsor img {
-        width: 90px; 
-        height: 100px; 
-    }
-
-    .contack .body p {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-
-    .content-blog {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .galery .card:hover .info  {
-        top: 10%;
-        font-size: 12px; 
-    }
-    
-}
-
-@media (min-width: 768px) and (max-width: 1030px) {
-    
-    .header {
-        font-size: 25px;
-    }
-    
-    .header p {
-        width: auto;
-    }
-
-    #promo {
-        height: auto;
-    }
-
-    .promo .card {
-        margin-bottom: 30px;
-        height: 450px;
-    }
-
-    .promo .card-body h4 {
-        font-size: 30px;
-    }
-
-    .promo .card-body p {
-        font-size: 20px;
-    }
-
     .promo .card .card-fasilitas span {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    
-    .promo .card .card-fasilitas span img {
-        width: 50px;
-        height: 40px;
-        margin-bottom: 15px;
-    }
-
-    .promo  .card .card-fasilitas p {
-        font-size: 20px;
+        text-align: center;
     }
 
     .carousel-item {
@@ -598,13 +511,127 @@ body {
     
     .destination .card img{
         width: 70%;
-        height: 40%;
+        height: 200px
     }
     
     .destination .isi {
         width: 80%;
-        margin-right: 5%;
         margin-bottom: 40px;
+        margin-right: 7%;
+    }
+
+    .destination .isi p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .destination .isi .btn {
+        font-size: 13px;
+    }
+
+    .contack .sponsor img {
+        width: 90px; 
+        height: 100px; 
+    }
+
+    .contack .body p {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .content-blog {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .galery .card:hover .info  {
+        top: 10%;
+        font-size: 12px; 
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1030px) {
+
+    .header {
+        font-size: 15px;
+        width: 50%;
+    }
+    
+    .header p {
+        width: auto;
+    }
+
+    #promo {
+        height: auto;
+    }
+
+    .promo .card {
+        margin-bottom: 30px;
+        height: 350px;
+    }
+
+    .promo .card-body h4 {
+        font-size: 15px;
+    }
+
+    .promo .card-body p {
+        font-size: 12px;
+    }
+
+    .promo .card .img {
+        height: 150px;
+    } 
+
+    .promo .card .card-fasilitas span {
+        margin-top: 15px;
+        left: 0;
+        text-align: center;
+        right: 0;
+    }
+    
+    .promo .card .card-fasilitas span img {
+        width: 30px;
+        height: 25px;
+        margin-bottom: 15px;
+    }
+
+    .promo  .card .card-fasilitas p {
+        font-size: 9px;
+        margin-right: 4px;
+    }
+
+    .carousel-item {
+        flex-wrap: wrap;
+    }
+
+    #destination {
+        height: auto;
+    }
+
+    .destination .content {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .destination .card {
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 3%;
+    }
+    
+    .destination .card img{
+        width: 70%;
+        height: 350px;
+    }
+    
+    .destination .isi {
+        width: 70%;
+        margin-right: 7%;
+        margin-bottom: 10%;
     }
 
     .destination .isi p {
@@ -630,6 +657,18 @@ body {
         width: 100%;
     }
 
+    .galery h3 {
+        font-size: 25px;
+        color: #f1c40f;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+    }
+    
+    .galery p {
+        color: white;
+        font-size: 13px;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+    }
+
     .galery .card {
         height: 400px;
     }
@@ -641,6 +680,6 @@ body {
     }
 
     .galery .card:hover .info .btn {
-        font-size: 25px;
+        font-size: 13px;
     }
 } 
